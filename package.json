@@ -1,0 +1,28 @@
+{
+  "name": "insomnia-plugin-grpc-utils",
+  "version": "0.1.0",
+  "description": "GRPC Utils for Insomnia API Client",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "rm -rf $HOME/.config/Insomnia/plugins/insomnia-plugin-grpc-utils && cp -r ../insomnia-plugin-grpc-utils $HOME/.config/Insomnia/plugins/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlcox/insomnia-plugin-grpc-utils.git"
+  },
+  "author": "Travis Cox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlcox/insomnia-grpc-utils/issues"
+  },
+  "homepage": "https://github.com/tlcox/insomnia-grpc-utils#readme",
+  "insomnia": {
+    "name": "grpc-utils",
+    "displayName": "grpc-utils plugin",
+    "description": "grpc-utils",
+    "publisher": {
+      "name": "Travis Cox"
+    },
+    "unlisted": true
+  }
+}
